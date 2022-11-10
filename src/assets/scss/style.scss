@@ -1,0 +1,14 @@
+@use './partials/header';
+@use './partials/main';
+@use './partials/footer';
+@use '/node_modules/bootstrap';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    //background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

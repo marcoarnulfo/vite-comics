@@ -1,0 +1,15 @@
+header{
+    //background-color: green;
+
+    a{
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+
+        &.active{
+            color: blueviolet;
+            border-bottom: 2px solid blueviolet;
+        }
+    }
+}
