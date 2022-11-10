@@ -26,17 +26,22 @@ export default {
                 },
             ]
         }
+    },
+    methods:{
+        getImagePath: function(imgPath) {
+            return new URL(imgPath, import.meta.url).href;
+        }
     }
 }
 </script>
 
 <template>
-    <div class="container-fluid bg-primary showcase">
+    <div class="container-fluid showcase">
         <div class="container py-5">
             <div class="row row-cols-5">
             <div class="col d-flex" v-for="element in items">
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                <!-- <img :src="element.src" alt=""> -->
+                <!-- <img src="../assets/img/buy-comics-digital-comics.png" alt=""> -->
+                <img :src="getImagePath(element.src)" alt=""> 
                 <div class="d-flex align-items-center px-3 text-light">
                     {{element.text}}
                 </div>

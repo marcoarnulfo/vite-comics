@@ -54,11 +54,11 @@ export default {
 
     <header id="site-header">
         <div class="container d-flex justify-content-between">
-            <div class="logo py-3">
+            <div class="logo py-2 d-flex align-items-center">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
-            <div class="links d-flex align-items-center">
-                <a class="p-3 fw-bolder" href="" v-for="element in links" :class="element.text == 'Comics' ? 'active' : ''">
+            <div class="links d-flex ">
+                <a class="fw-bolder" href="" v-for="element in links" :class="element.text == 'Comics' ? 'active' : ''">
                     {{element.text}}
                 </a>
             </div>

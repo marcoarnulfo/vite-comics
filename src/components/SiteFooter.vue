@@ -12,7 +12,7 @@ export default {
                 <div class="row">
                     <div class="col-6 d-flex left mt-5">
                         <div class="col text-light">
-                            <h3>DC COMICS</h3>
+                            <h3 class="fw-bold">DC COMICS</h3>
                             <ul>
                                 <li><a href=""> Characters</a></li>
                                 <li><a href="">Comics </a></li>
@@ -22,14 +22,14 @@ export default {
                                 <li><a href="">Videos</a></li>
                                 <li><a href="">News</a></li>
                             </ul>
-                            <h3>SHOP</h3>
+                            <h3 class="fw-bold">SHOP</h3>
                             <ul>
                                 <li><a href="">Shop DC</a></li>
                                 <li><a href="">Shop DC Collectibles</a></li>
                             </ul>
                         </div>
                         <div class="col text-light">
-                            <h3>DC</h3>
+                            <h3 class="fw-bold">DC</h3>
                             <ul>
                                 <li><a href="">Tearms Of Use</a></li>
                                 <li><a href="">Privacy policy(New)</a></li>
@@ -45,7 +45,7 @@ export default {
                             </ul>
                         </div>
                         <div class="col text-light">
-                            <h3>SITES</h3>
+                            <h3 class="fw-bold">SITES</h3>
                             <ul>
                                 <li><a href="">DC</a></li>
                                 <li><a href="">MAD Magazine</a></li>
@@ -61,11 +61,13 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="test container-fluid">
-            <div class="container py-5  d-flex justify-content-between">
-                <button class="btn btn-primary">SIGN-UP NOW!</button>
-                <div class="social d-flex gap-5">
-                    <div class="text-primary fw-bolder ">Follow us</div>
+        <div class="bottom container-fluid ">
+            <div class="container pt-4 pb-5 d-flex justify-content-between">
+                <div class="align-self-center buttonz text-light fw-bolder">
+                    SIGN-UP NOW!
+                </div>
+                <div class="social gap-5 p-3 d-flex">
+                    <div class="text-primary fw-bolder p-3 ">Follow us</div>
                     <img src="../assets/img/footer-facebook.png" alt="">
                     <img src="../assets/img/footer-twitter.png" alt="">
                     <img src="../assets/img/footer-youtube.png" alt="">
