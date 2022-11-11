@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+.serie{
+    margin-top: -2.5rem;
+    padding-bottom: 1rem ;
+}
+.series{
+    background-color: $showColor;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+.load{
+    background-color: $showColor;
+    padding: 1rem 4rem;
+    text-align: center;
+}

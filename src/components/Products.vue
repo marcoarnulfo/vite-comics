@@ -44,17 +44,6 @@ export default {
 <style lang="scss" scoped>
 .serie{
     margin-top: -2.5rem;
-    padding-bottom: 1rem ;
-}
-.series{
-    background-color: blueviolet;
-    font-size: 2rem;
-    padding: 0 1rem;
-}
-.load{
-    background-color: blueviolet;
-    padding: 1rem 4rem;
-    text-align: center;
 }
 
 </style>
