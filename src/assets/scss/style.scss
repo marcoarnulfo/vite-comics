@@ -1,5 +1,6 @@
 @use './partials/header';
 @use './partials/main';
+@use './partials/jumbotron';
 @use './partials/showcase';
 @use './partials/footer';
 @use '/node_modules/bootstrap';
@@ -12,7 +13,6 @@
 
 
 body{
-    overflow: hidden;
     //background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

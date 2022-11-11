@@ -62,17 +62,27 @@ export default {
             </div>
         </div>
         <div class="bottom container-fluid ">
-            <div class="container pt-4 pb-5 d-flex justify-content-between">
+            <div class="container py-3  d-flex justify-content-between">
                 <div class="align-self-center buttonz text-light fw-bolder">
                     SIGN-UP NOW!
                 </div>
-                <div class="social gap-5 p-3 d-flex">
-                    <div class="text-primary fw-bolder p-3 ">Follow us</div>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
+                <div class="social p-3 d-flex">
+                    <div class="text-primary fw-bolder p-3 follow">Follow us</div>
+                    <div class="p-2">
+                        <img src="../assets/img/footer-facebook.png" alt="">
+                    </div>
+                    <div class="p-2">
+                        <img src="../assets/img/footer-twitter.png" alt="">
+                    </div>
+                    <div  class="p-2">
+                        <img src="../assets/img/footer-youtube.png" alt="">
+                    </div>
+                    <div  class="p-2">
+                        <img src="../assets/img/footer-pinterest.png" alt="">
+                    </div>
+                    <div  class="p-2">
+                        <img src="../assets/img/footer-periscope.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
