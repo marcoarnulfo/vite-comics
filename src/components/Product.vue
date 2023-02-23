@@ -9,11 +9,18 @@ export default {
 
 <template>
 
-    <div class="col text-dark">
-        <div class="card my-3">
+    <div class="col text-white">
+        <div class="card bg-dark my-3">
             <img class="rounded" :src="image" alt="">
             <div class="text-center">{{ title }}</div>
         </div>
     </div>
 
 </template>
+
+<style scoped>
+img{
+    width: 300px;
+    height: 400px;
+}
+</style>
